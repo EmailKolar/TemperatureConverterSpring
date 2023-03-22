@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        #box{
+            height: 200px;
+            width: 400px;
+            border: 1px solid black;
+            margin: auto;
+            padding: 4px;
+            background-color: lightgray;
+        }
+        #c2f{
+            text-align: center;
+        }
+        #f2c{
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="c2f">
+                <label>celsius to fahrenheit</label>
+                <form action="/result" method="post">
+                <input type="text" name="c2f" placeholder="Enter temperature:">
+                    <input type="submit" value="convert">
+                </form>
+
+        </div>
+        <div id="f2c">
+            <label>fahrenheit to celsius</label>
+            <form action="/result2" method="post">
+                <input type="text" name="f2c" placeholder="Enter temperature:">
+                <input type="submit" value="convert">
+            </form>
+
+        </div>
+
+
+
+
+    </div>
+
+</body>
+</html>
